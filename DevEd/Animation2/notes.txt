@@ -1,0 +1,6 @@
+1) npm init //to generate package.json
+2) npm install -g parcel-bundler
+3) parcel index.html //to run parcel with the live server
+4) npm install gsap //to install the gsap library
+5) npm install @dogstudio/highway //to install this
+6) data-router-wrapper shd not have any children

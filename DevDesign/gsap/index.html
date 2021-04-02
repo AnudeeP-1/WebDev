@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gsap | By Webdev Simplified</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            font-family: 'Potta One';
+            overflow: hidden;
+        }
+
+        .header {
+            height: 25vh;
+            background-color: red;
+            width: 100%;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+        }
+
+        .buttons {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sidebar {
+            background-color: green;
+            width: 15vw;
+        }
+
+        .button {
+            align-self: center;
+        }
+
+        .footer {
+            height: 25vh;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-links">
+            <a href="#" class="buttons">Link 1</a>
+            <a href="#" class="buttons">Link 2</a>
+            <a href="#" class="buttons">Link 3</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="sidebar left"></div>
+        <button class="button">Reverse!</button>
+        <div class="sidebar right"></div>
+    </div>
+    <div class="footer"></div>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
